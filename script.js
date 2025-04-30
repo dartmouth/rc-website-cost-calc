@@ -4,3 +4,10 @@ let disk
 let dartfs
 let sysadmin
 
+document.
+
+document.addEventListener("submit", function(event) {
+    event.preventDefault();
+    cpus = document.getElementById("CPUs").value;
+    console.log(cpus)
+});
