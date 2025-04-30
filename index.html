@@ -8,9 +8,9 @@
         <h1>
             System Pricing
         </h1>
-        <form method="get">
+        <form method="get" onsubmit="form_submitted()">
             <label >CPUs:</label>
-            <select id = "CPUs" method="get">
+            <select id = "CPUs" name="cpus">
                 <option value = "1">1</option>
                 <option value = "2">2</option>
                 <option value = "4">4</option>
@@ -24,7 +24,7 @@
                 <option value = "48">48</option>
             </select> <br/>
             <label>Memory(GB):</label>
-            <select id = "memory">
+            <select id = "memory" name="memory">
                 <option value = "1">1</option>
                 <option value = "2">2</option>
                 <option value = "4">4</option>
@@ -38,11 +38,11 @@
                 <option value = "48">48</option>
             </select> <br/>
             <label>Disk Space(GB):</label>
-            <input id = "disk_space"/> <br/>
+            <input id = "disk_space" name="disk"/> <br/>
             <label>DartFS Storage(TB):</label>
-            <input id = "dartfs"/> <br/>
+            <input id = "dartfs" name="dartfs"/> <br/>
             <label>SysAdmin:</label>
-            <input type="checkbox" id = "sysadmin"/> <br/>
+            <input type="checkbox" id = "sysadmin" name="sysadmin"/> <br/>
             <input type="submit"> <br/>
         </form>
     </body>
