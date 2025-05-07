@@ -5,10 +5,14 @@
         <script src="script.js"></script>
     </head>
     <body>
-        <h1>
-            System Pricing
-        </h1>
+        <header class="header">
+            <h1>
+                System Pricing
+            </h1>
+        </header>
+        <div class="spacer"></div>
         <form method="get" onsubmit="form_submitted()">
+            <header class="forms">           
             <label >CPUs:</label>
             <select id = "CPUs" name="cpus">
                 <option value = "1">1</option>
@@ -22,7 +26,7 @@
                 <option value = "36">36</option>
                 <option value = "40">40</option>
                 <option value = "48">48</option>
-            </select> <br/>
+            </select>
             <label>Memory(GB):</label>
             <select id = "memory" name="memory">
                 <option value = "1">1</option>
@@ -37,12 +41,16 @@
                 <option value = "40">40</option>
                 <option value = "48">48</option>
             </select> <br/>
+            </header>
             <label>Disk Space(GB):</label>
             <input id = "disk_space" name="disk"/> <br/>
+            <div class="spacer"></div>
             <label>DartFS Storage(TB):</label>
             <input id = "dartfs" name="dartfs"/> <br/>
+            <div class="spacer"></div>
             <label>SysAdmin:</label>
             <input type="checkbox" id = "sysadmin" name="sysadmin"/> <br/>
+            <div class="spacer"></div>
             <input type="submit"> <br/>
         </form>
     </body>
