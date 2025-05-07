@@ -12,4 +12,9 @@ function form_submitted() {
     console.log(typeof disk === "number");
     dartfs = document.getElementById("dartfs").value;
     sysadmin = document.getElementById("sysadmin").checked;
+    cost_per_cpu = 60
+    cost_per_memory = 40
+    cost_per_disk = 2.5
+    cost_per_dartfs = 95
+    sysadmin_cost = 200
 };
