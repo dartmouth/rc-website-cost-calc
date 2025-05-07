@@ -11,6 +11,7 @@
         <form method="get" onsubmit="form_submitted()">
             <label >CPUs:</label>
             <select id = "CPUs" name="cpus">
+                <option value = "0">0</option>
                 <option value = "1">1</option>
                 <option value = "2">2</option>
                 <option value = "4">4</option>
@@ -22,9 +23,10 @@
                 <option value = "36">36</option>
                 <option value = "40">40</option>
                 <option value = "48">48</option>
-            </select> <br/>
+            </select>
             <label>Memory(GB):</label>
             <select id = "memory" name="memory">
+                <option value = "0">0</option>
                 <option value = "1">1</option>
                 <option value = "2">2</option>
                 <option value = "4">4</option>
@@ -38,9 +40,9 @@
                 <option value = "48">48</option>
             </select> <br/>
             <label>Disk Space(GB):</label>
-            <input id = "disk_space" name="disk"/> <br/>
+            <input id = "disk_space" name="disk" placeholder="0"/> <br/>
             <label>DartFS Storage(TB):</label>
-            <input id = "dartfs" name="dartfs"/> <br/>
+            <input id = "dartfs" name="dartfs" placeholder="0"/> <br/>
             <label>SysAdmin:</label>
             <input type="checkbox" id = "sysadmin" name="sysadmin"/> <br/>
             <input type="submit"> <br/>
