@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>RC Pricing</title>
@@ -13,8 +14,7 @@
         <div class="spacer"></div>
         <form method="get" onsubmit="form_submitted()">
             <header class="forms">           
-            <label >CPUs:</label>
-            <select id = "CPUs" name="cpus">
+            <label >CPUs: <select id = "CPUs" name="cpus">
                 <option value = "0">0</option>
                 <option value = "1">1</option>
                 <option value = "2">2</option>
@@ -27,9 +27,8 @@
                 <option value = "36">36</option>
                 <option value = "40">40</option>
                 <option value = "48">48</option>
-            </select>
-            <label>Memory(GB):</label>
-            <select id = "memory" name="memory">
+            </select></label>
+            <label>Memory(GB): <select id = "memory" name="memory">
                 <option value = "0">0</option>
                 <option value = "1">1</option>
                 <option value = "2">2</option>
@@ -42,14 +41,11 @@
                 <option value = "36">36</option>
                 <option value = "40">40</option>
                 <option value = "48">48</option>
-            </select> <br/>
+            </select> <br/></label>
             </header>
-            <label>Disk Space(GB):</label>
-            <input id = "disk_space" name="disk"/> <br/>
-            <label>DartFS Storage(TB):</label>
-            <input id = "dartfs" name="dartfs"/> <br/>
-            <label>SysAdmin:</label>
-            <input type="checkbox" id = "sysadmin" name="sysadmin"/> <br/>
+            <label>Disk Space(GB): <input id = "disk_space" name="disk"/> <br/></label>
+            <label>DartFS Storage(TB): <input id = "dartfs" name="dartfs"/> <br/></label>
+            <label>SysAdmin: <input type="checkbox" id = "sysadmin" name="sysadmin"/> <br/></label>
             <div class="spacer"></div>
             <input type="submit"> <br/>
         </form>
