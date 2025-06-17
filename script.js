@@ -58,7 +58,7 @@ function calculateAndDisplay() {
     const totalCost = price_calculation(cpus, memory, disk, dartfs, sysadmin);
     
     const resultElement = document.getElementById("result");
-    resultElement.innerText = `Total Cost: $${totalCost}`;
+    resultElement.innerText = `Total Cost (per year): $${totalCost}`;
     resultElement.style.display = "block";    
 }
 
