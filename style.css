@@ -21,3 +21,7 @@ body {
 .spacer{
     padding: 2.5px;
 }
+
+#result_space{
+    margin-top: 25px;
+}

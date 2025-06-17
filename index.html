@@ -12,9 +12,10 @@
             </h1>
         </header>
         <div class="spacer"></div>
-        <form method="get" onsubmit="form_submitted()">
+        <form method="get" >
             <header class="forms">           
-            <label >CPUs: <select id = "CPUs" name="cpus">
+            <label for="cpus">CPUs: </label>
+            <select id="cpus" name="cpus">
                 <option value = "0">0</option>
                 <option value = "1">1</option>
                 <option value = "2">2</option>
@@ -27,8 +28,9 @@
                 <option value = "36">36</option>
                 <option value = "40">40</option>
                 <option value = "48">48</option>
-            </select></label>
-            <label>Memory(GB): <select id = "memory" name="memory">
+            </select>
+            <label for="memory">Memory(GB): </label>
+            <select id = "memory" name="memory">
                 <option value = "0">0</option>
                 <option value = "1">1</option>
                 <option value = "2">2</option>
@@ -41,13 +43,18 @@
                 <option value = "36">36</option>
                 <option value = "40">40</option>
                 <option value = "48">48</option>
-            </select> <br/></label>
+            </select> <br/>
             </header>
-            <label>Disk Space(GB): <input id = "disk_space" name="disk"/> <br/></label>
-            <label>DartFS Storage(TB): <input id = "dartfs" name="dartfs"/> <br/></label>
-            <label>SysAdmin: <input type="checkbox" id = "sysadmin" name="sysadmin"/> <br/></label>
+            <label for="disk">Disk Space(GB): </label>
+            <input id = "disk" name="disk"/> <br/>
+            <label for="dartfs">DartFS Storage(TB): </label>
+            <input id = "dartfs" name="dartfs"/> <br/>
+            <label for="sysadmin">SysAdmin: </label> 
+            <input type="checkbox" id = "sysadmin" name="sysadmin"/> <br/>
             <div class="spacer"></div>
             <input type="submit"> <br/>
+            <div class="spacer" id="result_space"></div>
+            <label id="result" name="result"></label>
         </form>
     </body>
 </html>
