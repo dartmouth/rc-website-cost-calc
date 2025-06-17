@@ -15,7 +15,6 @@ body {
     color: white;
     padding: 1px;
     text-align: left;
-    border-radius: 10px;
 }
 
 #logo {
@@ -35,7 +34,15 @@ body {
 }
 
 .forms{
-    padding: 10;
+    padding: 5px;
+}
+
+#disk {
+    margin-bottom: 5px;
+}
+
+#dartfs {
+    margin-bottom: 5px;
 }
 
 .spacer{
