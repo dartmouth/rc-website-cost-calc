@@ -52,3 +52,10 @@ body {
 #result_space{
     margin-top: 25px;
 }
+
+#invoice-frame {
+    width: 100%;
+    height: 600px;
+    border: none;
+    border: 1px solid black;
+}
