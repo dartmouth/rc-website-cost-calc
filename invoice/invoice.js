@@ -22,4 +22,5 @@ function price_calculation(cpus, memory, disk, dartfs, sysadmin) {
     }
     if (dartfs) {
         dartfs_subtotal += cost_per_tb_dartfs * dartfs;
-    }}
+    }
+}
