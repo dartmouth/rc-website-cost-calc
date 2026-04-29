@@ -54,8 +54,8 @@ body {
 }
 
 #invoice-frame {
-    width: 100%;
+    width: 1000%;
     height: 600px;
     border: none;
-    border: 1px solid black;
+    border: 1px solid #00693e;;
 }
