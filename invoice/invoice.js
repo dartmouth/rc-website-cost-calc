@@ -49,10 +49,19 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Students fill these in — straightforward DOM manipulation
   document.getElementById("cpus-qty").innerText = values.cpus;
+  document.getElementById("cpu-subtotal").innerText = values.cpus_subtotal;
   document.getElementById("memory-qty").innerText = values.memory;
+  document.getElementById("memory-subtotal").innerText = values.memory_subtotal;
   document.getElementById("disk-qty").innerText = values.disk;
+  document.getElementById("disk-subtotal").innerText = values.disk_subtotal_subtotal;
   document.getElementById("dartfs-qty").innerText = values.dartfs;
+  document.getElementById("dartfs-subtotal").innerText = values.dartfs_subtotal;
   document.getElementById("sysadmin").innerText = values.sysadmin;
+  document.getElementById("sysadmin-subtotal").innerText = values.sysadmin_subtotal;
+  document.getElementById("compute-subtotal").innerText = values.compute_subtotal;
+  document.getElementById("storage-subtotal").innerText = values.storage_subtotal;
+  document.getElementById("services-subtotal").innerText = values.services_subtotal;
+  document.getElementById("total").innerText = values.total;
 
 
 
