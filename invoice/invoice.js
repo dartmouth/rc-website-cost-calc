@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("memory-qty").innerText = values.memory;
   document.getElementById("memory-subtotal").innerText = values.memory_subtotal;
   document.getElementById("disk-qty").innerText = values.disk;
-  document.getElementById("disk-subtotal").innerText = values.disk_subtotal_subtotal;
+  document.getElementById("disk-subtotal").innerText = values.disk_subtotal;
   document.getElementById("dartfs-qty").innerText = values.dartfs;
   document.getElementById("dartfs-subtotal").innerText = values.dartfs_subtotal;
   document.getElementById("sysadmin").innerText = values.sysadmin;
