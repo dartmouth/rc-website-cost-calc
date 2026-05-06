@@ -49,4 +49,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Students fill these in — straightforward DOM manipulation
   document.getElementById("cpus-qty").innerText = values.cpus;
+  document.getElementById("memory-qty").innerText = values.memory;
+  document.getElementById("disk-qty").innerText = values.disk;
+  document.getElementById("dartfs-qty").innerText = values.dartfs;
+  document.getElementById("sysadmin").innerText = values.sysadmin;
+
+
+
 });
