@@ -1,39 +1,37 @@
 <!DOCTYPE html>
+<html>
     <head>
         <title>RC Pricing Invoice</title>
         <link rel="stylesheet" href="invoice.css">
         <script src="invoice.js"></script>
     </head>
     <body>
-
         <div id="invoice">
-
             <div class="invoice-header">
                 <h1>System Pricing Invoice</h1>
                 <p>Dartmouth Research Computing</p>
             </div>
-        <h1>Compute</h1>
-            <p></p>
-            <p><strong> Item Quantity Unit Price Subtotal</strong></p>
-            <p> CPUs BLANK cores $80/core   </p>
-            <p> Memory BLANK GB $40/GB </p>
-        <h1>Storage</h1>
-            <p></p>
-            <p><strong> Item Quantity Unit Subtotal </strong></p>
-            <p> Disk Space (500 GB) ($2.50/GB) $<label id="disk-space"></label></p>
-            <p> (DartFS Storage) (2 TB) ($95/TB) ($190)</p>
-            <p></p>
-        <h1>Services</h1>
-            <p></p>
-            <p><strong>Item Quantity Unit Subtotal</strong></p>
-            <p>SysAdmin __ flat rate </p>
-            <p></p>
-            <p>Compute subtotal: $BLANK </p>
-            <p></p>
-            <p>Storage subtotal: $BLANK</p>
-            <p></p>
-            <p>Services subtotal: $BLANK</p>
-        <h1>Total(per year): $</h1>
 
+            <h1>Compute</h1>
+            <p><strong>Item | Quantity | Unit Price | Subtotal</strong></p>
+            <p>CPUs | <span id="cpus-qty"></span> cores | $80/core | $<span id="cpus-subtotal"></span></p>
+            <p>CPUs | <span id="cpus-qty"></span> cores | $80/core | $______</p>
+            <p>Memory | ______ GB | $40/GB | $______</p>
+
+            <h1>Storage</h1>
+            <p><strong>Item | Quantity | Unit | Subtotal</strong></p>
+            <p>Disk Space | ______ GB | $2.50/GB | $______</p>
+            <p>DartFS Storage | ______ TB | $95/TB | $______</p>
+
+            <h1>Services</h1>
+            <p><strong>Item | Quantity | Unit | Subtotal</strong></p>
+            <p>SysAdmin | ______ | flat rate | $______</p>
+
+            <p>Compute subtotal: $______</p>
+            <p>Storage subtotal: $______</p>
+            <p>Services subtotal: $______</p>
+
+            <h1>Total (per year): $______</h1>
+        </div>
     </body>
 </html>
