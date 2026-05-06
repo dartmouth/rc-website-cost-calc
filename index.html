@@ -8,56 +8,55 @@
     <body>
         <header class="header">
             <img src="D-Pine_Rev.png" id="logo"/>
-            <h1 id="title">
-                System Pricing
-            </h1>
+            <h1 id="title">System Pricing</h1>
         </header>
         <div class="spacer"></div>
-        <form method="get" >
-            <header class="forms">           
-            <label for="cpus">CPUs: </label>
-            <select id="cpus" name="cpus">
-                <option value = "0">0</option>
-                <option value = "1">1</option>
-                <option value = "2">2</option>
-                <option value = "4">4</option>
-                <option value = "8">8</option>
-                <option value = "12">12</option>
-                <option value = "16">16</option>
-                <option value = "24">24</option>
-                <option value = "32">32</option>
-                <option value = "36">36</option>
-                <option value = "40">40</option>
-                <option value = "48">48</option>
-            </select>
-            <label for="memory">Memory(GB): </label>
-            <select id = "memory" name="memory">
-                <option value = "0">0</option>
-                <option value = "1">1</option>
-                <option value = "2">2</option>
-                <option value = "4">4</option>
-                <option value = "8">8</option>
-                <option value = "12">12</option>
-                <option value = "16">16</option>
-                <option value = "24">24</option>
-                <option value = "32">32</option>
-                <option value = "36">36</option>
-                <option value = "40">40</option>
-                <option value = "48">48</option>
-            </select> <br/>
+        <form method="get">
+            <header class="forms">
+                <label for="cpus">CPUs: </label>
+                <select id="cpus" name="cpus">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="4">4</option>
+                    <option value="8">8</option>
+                    <option value="12">12</option>
+                    <option value="16">16</option>
+                    <option value="24">24</option>
+                    <option value="32">32</option>
+                    <option value="36">36</option>
+                    <option value="40">40</option>
+                    <option value="48">48</option>
+                </select>
+                <label for="memory">Memory(GB): </label>
+                <select id="memory" name="memory">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="4">4</option>
+                    <option value="8">8</option>
+                    <option value="12">12</option>
+                    <option value="16">16</option>
+                    <option value="24">24</option>
+                    <option value="32">32</option>
+                    <option value="36">36</option>
+                    <option value="40">40</option>
+                    <option value="48">48</option>
+                </select> <br/>
             </header>
             <label for="disk">Disk Space(GB): </label>
-            <input type="number" id = "disk" name="disk" step="1" min="0"/> <br/>
+            <input type="number" id="disk" name="disk" step="1" min="0"/> <br/>
             <label for="dartfs">DartFS Storage(TB): </label>
-            <input type="number" id = "dartfs" name="dartfs" step="1" min="0"/> <br/>
-            <label for="sysadmin">SysAdmin: </label> 
-            <input type="checkbox" id = "sysadmin" name="sysadmin"/> <br/>
+            <input type="number" id="dartfs" name="dartfs" step="1" min="0"/> <br/>
+            <label for="sysadmin">SysAdmin: </label>
+            <input type="checkbox" id="sysadmin" name="sysadmin"/> <br/>
             <div class="spacer"></div>
             <input type="submit"> <br/>
             <div class="spacer" id="result_space"></div>
             <label id="result" name="result"></label>
         </form>
-        <iframe src="invoice/invoice.html" id="invoice-frame"></iframe>
-    </body>
 
+        <div class="spacer"></div>
+        <a href="invoice/invoice.html" id="view-invoice" target="_blank">View Invoice</a>
+    </body>
 </html>
